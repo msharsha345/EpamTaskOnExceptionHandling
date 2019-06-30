@@ -1,13 +1,8 @@
 import java.util.Scanner;
 import java.lang.Math;
-/*
- * 
- */
 
-
-
-class MyCalculator {
-	   
+class MyCalculator 
+{
 	    long power(int base, int power) throws Exception
 	    {
 	        if(base<0 || power< 0)
@@ -24,12 +19,11 @@ class MyCalculator {
 	        }
 	    }
 	    
-	}
-
-	public class  ExceptionHandling{
+}
+public class  ExceptionHandling
+{
 	    public static final MyCalculator my_calculator = new MyCalculator();//creating object for class MyCalculator
 	    public static final Scanner in = new Scanner(System.in);
-	    
 	    public static void main(String[] args) 
 	    {
 	        while (in .hasNextInt()) 
@@ -46,6 +40,6 @@ class MyCalculator {
 	            }
 	        }
 	    }
-	}
+}
 
 
